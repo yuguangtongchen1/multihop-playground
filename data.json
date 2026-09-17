@@ -1,0 +1,1948 @@
+{
+  "version": 1,
+  "title": "多跳检索游乐场",
+  "dataKind": "recorded-experiment",
+  "recordedDate": "2026-09-14",
+  "scenarios": [
+    {
+      "id": "H174030",
+      "title": "沿着引文，找到两份前案",
+      "question": "许可费按进口货物成本计算，应该继续核对哪些历史估价依据？",
+      "description": "真实增益回放：单轮恢复 1 / 3 项原判理引文，完整模块恢复 3 / 3。",
+      "kind": "real",
+      "sourceUrl": "https://rulings.cbp.gov/ruling/H174030",
+      "modes": {
+        "flat": {
+          "steps": [
+            {
+              "title": "单轮取回",
+              "explanation": "一次按初始事实取回 18 个片段；这是特定基线，不代表所有 RAG。",
+              "nodes": [
+                {
+                  "id": "H174030-flat-query-1",
+                  "title": "初始案情",
+                  "type": "query",
+                  "detail": "中文摘要，实际检索使用原始英文事实输入。",
+                  "url": "https://rulings.cbp.gov/ruling/H174030"
+                },
+                {
+                  "id": "H050895:00200",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:00200",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    768,
+                    1823
+                  ]
+                },
+                {
+                  "id": "H050895:00600",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:00600",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    2582,
+                    3771
+                  ]
+                },
+                {
+                  "id": "H050895:00400",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:00400",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    1633,
+                    2790
+                  ]
+                },
+                {
+                  "id": "H050895:03600",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:03600",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    16110,
+                    17257
+                  ]
+                },
+                {
+                  "id": "H050895:06400",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:06400",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    29352,
+                    30536
+                  ]
+                },
+                {
+                  "id": "546675:00200",
+                  "title": "546675",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546675",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546675",
+                  "excerpt": "",
+                  "chunkId": "546675:00200",
+                  "date": "1999-06-23",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    713,
+                    1868
+                  ]
+                },
+                {
+                  "id": "H050895:01400",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:01400",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    6410,
+                    7576
+                  ]
+                },
+                {
+                  "id": "H050895:01200",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:01200",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    5457,
+                    6520
+                  ]
+                },
+                {
+                  "id": "H050895:00800",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:00800",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    3568,
+                    4714
+                  ]
+                },
+                {
+                  "id": "545381:08200",
+                  "title": "545381",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545381",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545381",
+                  "excerpt": "",
+                  "chunkId": "545381:08200",
+                  "date": "1998-05-04",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    34636,
+                    35649
+                  ]
+                },
+                {
+                  "id": "H050895:02400",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:02400",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    11547,
+                    12524
+                  ]
+                },
+                {
+                  "id": "H050895:04000",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:04000",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    18097,
+                    19118
+                  ]
+                },
+                {
+                  "id": "W548287:02200",
+                  "title": "W548287",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/W548287",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548287",
+                  "excerpt": "",
+                  "chunkId": "W548287:02200",
+                  "date": "2003-06-03",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    10832,
+                    12071
+                  ]
+                },
+                {
+                  "id": "545381:08400",
+                  "title": "545381",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545381",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545381",
+                  "excerpt": "",
+                  "chunkId": "545381:08400",
+                  "date": "1998-05-04",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    35469,
+                    36524
+                  ]
+                },
+                {
+                  "id": "545194:00800",
+                  "title": "545194",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545194",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545194",
+                  "excerpt": "",
+                  "chunkId": "545194:00800",
+                  "date": "1995-09-13",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    3375,
+                    4458
+                  ]
+                },
+                {
+                  "id": "H050895:06600",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:06600",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    30349,
+                    31549
+                  ]
+                },
+                {
+                  "id": "545998:00800",
+                  "title": "545998",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545998",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545998",
+                  "excerpt": "",
+                  "chunkId": "545998:00800",
+                  "date": "1996-11-13",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    3206,
+                    4216
+                  ]
+                },
+                {
+                  "id": "H077419:00600",
+                  "title": "H077419",
+                  "type": "hit",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H077419",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H077419",
+                  "excerpt": "",
+                  "chunkId": "H077419:00600",
+                  "date": "2011-04-05",
+                  "retrieval": "semantic",
+                  "labelHit": true,
+                  "sourceCharacterRange": [
+                    2341,
+                    3415
+                  ]
+                }
+              ],
+              "edges": [
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:00200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:00600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:00400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:03600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:06400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "546675:00200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:01400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:01200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:00800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "545381:08200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:02400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:04000",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "W548287:02200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "545381:08400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "545194:00800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H050895:06600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "545998:00800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-flat-query-1",
+                  "to": "H077419:00600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                }
+              ],
+              "queryRaw": null
+            }
+          ],
+          "metrics": {
+            "label": "原裁定库内引文恢复",
+            "hits": 1,
+            "total": 3,
+            "hitIds": [
+              "H077419"
+            ],
+            "inputTokens": 5284,
+            "outputTokens": 384,
+            "calls": 1,
+            "seconds": 5.78,
+            "evidenceTokens": 4320,
+            "documents": 7,
+            "chunks": 18
+          },
+          "costNote": "输入包含重复读取；秒数仅为本机有效时间，受缓存和分批影响，不能解释为冷启动速度比较。"
+        },
+        "full": {
+          "steps": [
+            {
+              "title": "第 1 轮",
+              "explanation": "本轮新增 6 个语义片段、0 个引用扩展片段。",
+              "nodes": [
+                {
+                  "id": "H174030-full-query-1",
+                  "title": "初始案情",
+                  "type": "query",
+                  "detail": "中文摘要，实际检索使用原始英文事实输入。",
+                  "url": "https://rulings.cbp.gov/ruling/H174030"
+                },
+                {
+                  "id": "H050895:00200",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:00200",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    768,
+                    1823
+                  ]
+                },
+                {
+                  "id": "H050895:00600",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:00600",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    2582,
+                    3771
+                  ]
+                },
+                {
+                  "id": "H050895:00400",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:00400",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    1633,
+                    2790
+                  ]
+                },
+                {
+                  "id": "H050895:03600",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:03600",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    16110,
+                    17257
+                  ]
+                },
+                {
+                  "id": "H050895:06400",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:06400",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    29352,
+                    30536
+                  ]
+                },
+                {
+                  "id": "546675:00200",
+                  "title": "546675",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546675",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546675",
+                  "excerpt": "",
+                  "chunkId": "546675:00200",
+                  "date": "1999-06-23",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    713,
+                    1868
+                  ]
+                }
+              ],
+              "edges": [
+                {
+                  "from": "H174030-full-query-1",
+                  "to": "H050895:00200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-1",
+                  "to": "H050895:00600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-1",
+                  "to": "H050895:00400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-1",
+                  "to": "H050895:03600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-1",
+                  "to": "H050895:06400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-1",
+                  "to": "546675:00200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                }
+              ],
+              "queryRaw": null
+            },
+            {
+              "title": "第 2 轮",
+              "explanation": "本轮新增 6 个语义片段、0 个引用扩展片段。",
+              "nodes": [
+                {
+                  "id": "H174030-full-query-2",
+                  "title": "第 2 轮查询",
+                  "type": "query",
+                  "detail": "模型实际生成的下一轮英文查询：Search Query: \"Bass Pro royalty payments licensing agreement royalty calculation royalty payments royalty rate royalty percentage royalty payment royalty payment method royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price",
+                  "url": "https://rulings.cbp.gov/ruling/H174030"
+                },
+                {
+                  "id": "H024566:00800",
+                  "title": "H024566",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H024566",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H024566",
+                  "excerpt": "",
+                  "chunkId": "H024566:00800",
+                  "date": "2008-10-15",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    3551,
+                    4668
+                  ]
+                },
+                {
+                  "id": "548489:00800",
+                  "title": "548489",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/548489",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/548489",
+                  "excerpt": "",
+                  "chunkId": "548489:00800",
+                  "date": "2004-08-04",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    3348,
+                    4511
+                  ]
+                },
+                {
+                  "id": "546782:04000",
+                  "title": "546782",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546782",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546782",
+                  "excerpt": "",
+                  "chunkId": "546782:04000",
+                  "date": "1999-12-02",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    17644,
+                    18588
+                  ]
+                },
+                {
+                  "id": "546626:02600",
+                  "title": "546626",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546626",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546626",
+                  "excerpt": "",
+                  "chunkId": "546626:02600",
+                  "date": "2001-11-09",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    12150,
+                    13370
+                  ]
+                },
+                {
+                  "id": "H050895:01600",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:01600",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    7367,
+                    8643
+                  ]
+                },
+                {
+                  "id": "H077419:03800",
+                  "title": "H077419",
+                  "type": "hit",
+                  "detail": "第二轮通过语义检索读到的引用线索。该段同时区分了事实并讨论修订许可协议，引用不等于赞同。",
+                  "url": "https://rulings.cbp.gov/ruling/H077419",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H077419",
+                  "excerpt": "However, this is not the case here. … HRL 546513 … HRL H047360",
+                  "chunkId": "H077419:03800",
+                  "date": "2011-04-05",
+                  "retrieval": "semantic",
+                  "labelHit": true,
+                  "sourceCharacterRange": [
+                    16628,
+                    17722
+                  ]
+                }
+              ],
+              "edges": [
+                {
+                  "from": "H174030-full-query-2",
+                  "to": "H024566:00800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-2",
+                  "to": "548489:00800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-2",
+                  "to": "546782:04000",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-2",
+                  "to": "546626:02600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-2",
+                  "to": "H050895:01600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-2",
+                  "to": "H077419:03800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                }
+              ],
+              "queryRaw": "Search Query: \"Bass Pro royalty payments licensing agreement royalty calculation royalty payments royalty rate royalty percentage royalty payment royalty payment method royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price royalty payment invoice price"
+            },
+            {
+              "title": "第 3 轮",
+              "explanation": "本轮新增 3 个语义片段、3 个引用扩展片段。 H077419:03800 触发两份前案、三个片段；同案去重计数。",
+              "nodes": [
+                {
+                  "id": "H174030-full-query-3",
+                  "title": "第 3 轮查询",
+                  "type": "query",
+                  "detail": "模型实际生成的下一轮英文查询：Search Query: Bass Pro royalty payments related to imported merchandise valuation authority",
+                  "url": "https://rulings.cbp.gov/ruling/H174030"
+                },
+                {
+                  "id": "H050895:02400",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:02400",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    11547,
+                    12524
+                  ]
+                },
+                {
+                  "id": "H050895:04000",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:04000",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    18097,
+                    19118
+                  ]
+                },
+                {
+                  "id": "H050895:06600",
+                  "title": "H050895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H050895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H050895",
+                  "excerpt": "",
+                  "chunkId": "H050895:06600",
+                  "date": "2010-12-06",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    30349,
+                    31549
+                  ]
+                },
+                {
+                  "id": "H047360:02200",
+                  "title": "H047360",
+                  "type": "hit",
+                  "detail": "第三轮沿 H077419:03800 的明确引用取得。讨论鞋类许可费用；尚须核对与当前案情的差异。",
+                  "url": "https://rulings.cbp.gov/ruling/H047360",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H047360",
+                  "excerpt": "The royalty fee is based on the quantity of footwear exported from the factory to TSA.",
+                  "chunkId": "H047360:02200",
+                  "date": "2009-07-31",
+                  "retrieval": "citation",
+                  "labelHit": true,
+                  "sourceCharacterRange": [
+                    9661,
+                    10917
+                  ]
+                },
+                {
+                  "id": "H047360:02600",
+                  "title": "H047360",
+                  "type": "hit",
+                  "detail": "同一被引裁定的另一片段。两个片段只计一份裁定命中。",
+                  "url": "https://rulings.cbp.gov/ruling/H047360",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H047360",
+                  "excerpt": "",
+                  "chunkId": "H047360:02600",
+                  "date": "2009-07-31",
+                  "retrieval": "citation",
+                  "labelHit": true,
+                  "sourceCharacterRange": [
+                    11551,
+                    12405
+                  ]
+                },
+                {
+                  "id": "546513:02600",
+                  "title": "546513",
+                  "type": "hit",
+                  "detail": "第三轮沿明确引用取得。片段强调裁定适用范围，并列出待判断问题。",
+                  "url": "https://rulings.cbp.gov/ruling/546513",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546513",
+                  "excerpt": "The scope of this ruling is limited to the transactions covered by the submitted documents",
+                  "chunkId": "546513:02600",
+                  "date": "1998-02-11",
+                  "retrieval": "citation",
+                  "labelHit": true,
+                  "sourceCharacterRange": [
+                    11415,
+                    12408
+                  ]
+                }
+              ],
+              "edges": [
+                {
+                  "from": "H174030-full-query-3",
+                  "to": "H050895:02400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-3",
+                  "to": "H050895:04000",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H174030-full-query-3",
+                  "to": "H050895:06600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H077419:03800",
+                  "to": "H047360:02200",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                },
+                {
+                  "from": "H077419:03800",
+                  "to": "H047360:02600",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                },
+                {
+                  "from": "H077419:03800",
+                  "to": "546513:02600",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                }
+              ],
+              "queryRaw": "Search Query: Bass Pro royalty payments related to imported merchandise valuation authority"
+            }
+          ],
+          "metrics": {
+            "label": "原裁定库内引文恢复",
+            "hits": 3,
+            "total": 3,
+            "hitIds": [
+              "546513",
+              "H047360",
+              "H077419"
+            ],
+            "inputTokens": 11168,
+            "outputTokens": 494,
+            "calls": 3,
+            "seconds": 9.645,
+            "evidenceTokens": 4320,
+            "documents": 9,
+            "chunks": 18
+          },
+          "costNote": "输入包含重复读取；秒数仅为本机有效时间，受缓存和分批影响，不能解释为冷启动速度比较。"
+        }
+      },
+      "limitations": [
+        "此处是 2026-09-14 实验的静态回放；动画不会调用模型。",
+        "问题是中文讲解摘要；实际模型输入为经隔离处理的英文事实段。",
+        "命中指取回原裁定引用过的文档，不代表法律支持成立或估价正确。",
+        "美国裁定用于检索研究，不能直接作为中国征税依据。"
+      ]
+    },
+    {
+      "id": "H029876",
+      "title": "多走几步，也可能走偏",
+      "question": "服装商标许可费与销售条件有关吗，历史依据在哪里？",
+      "description": "真实损失回放：单轮恢复 1 / 3 项引文，完整模块为 0 / 3。",
+      "kind": "real",
+      "sourceUrl": "https://rulings.cbp.gov/ruling/H029876",
+      "modes": {
+        "flat": {
+          "steps": [
+            {
+              "title": "单轮取回",
+              "explanation": "一次按初始事实取回 18 个片段；这是特定基线，不代表所有 RAG。",
+              "nodes": [
+                {
+                  "id": "H029876-flat-query-1",
+                  "title": "初始案情",
+                  "type": "query",
+                  "detail": "中文摘要，实际检索使用原始英文事实输入。",
+                  "url": "https://rulings.cbp.gov/ruling/H029876"
+                },
+                {
+                  "id": "H004991:03400",
+                  "title": "H004991",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H004991",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H004991",
+                  "excerpt": "",
+                  "chunkId": "H004991:03400",
+                  "date": "2007-04-02",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    15341,
+                    16395
+                  ]
+                },
+                {
+                  "id": "545627:00200",
+                  "title": "545627",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545627",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545627",
+                  "excerpt": "",
+                  "chunkId": "545627:00200",
+                  "date": "1995-09-13",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    635,
+                    1825
+                  ]
+                },
+                {
+                  "id": "W548287:06400",
+                  "title": "W548287",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/W548287",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548287",
+                  "excerpt": "",
+                  "chunkId": "W548287:06400",
+                  "date": "2003-06-03",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    31992,
+                    33247
+                  ]
+                },
+                {
+                  "id": "545627:00600",
+                  "title": "545627",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545627",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545627",
+                  "excerpt": "",
+                  "chunkId": "545627:00600",
+                  "date": "1995-09-13",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    2469,
+                    3707
+                  ]
+                },
+                {
+                  "id": "546433:02400",
+                  "title": "546433",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546433",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546433",
+                  "excerpt": "",
+                  "chunkId": "546433:02400",
+                  "date": "1998-01-09",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    10569,
+                    11671
+                  ]
+                },
+                {
+                  "id": "W548649:01800",
+                  "title": "W548649",
+                  "type": "evidence",
+                  "detail": "首轮取得研发费用话题；下一轮查询转向研发付款，偏离原来的服装商标争点。",
+                  "url": "https://rulings.cbp.gov/ruling/W548649",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548649",
+                  "excerpt": "research costs are applicable to imported merchandise under the Research Agreement",
+                  "chunkId": "W548649:01800",
+                  "date": "2006-09-05",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    8548,
+                    9634
+                  ]
+                },
+                {
+                  "id": "H100056:08000",
+                  "title": "H100056",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H100056",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H100056",
+                  "excerpt": "",
+                  "chunkId": "H100056:08000",
+                  "date": "2010-11-15",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    37665,
+                    38792
+                  ]
+                },
+                {
+                  "id": "H100056:08800",
+                  "title": "H100056",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H100056",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H100056",
+                  "excerpt": "",
+                  "chunkId": "H100056:08800",
+                  "date": "2010-11-15",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    41546,
+                    42609
+                  ]
+                },
+                {
+                  "id": "547557:02800",
+                  "title": "547557",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/547557",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/547557",
+                  "excerpt": "",
+                  "chunkId": "547557:02800",
+                  "date": "2001-02-13",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    12386,
+                    13600
+                  ]
+                },
+                {
+                  "id": "W548287:02600",
+                  "title": "W548287",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/W548287",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548287",
+                  "excerpt": "",
+                  "chunkId": "W548287:02600",
+                  "date": "2003-06-03",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    12939,
+                    14223
+                  ]
+                },
+                {
+                  "id": "545841:00200",
+                  "title": "545841",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545841",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545841",
+                  "excerpt": "",
+                  "chunkId": "545841:00200",
+                  "date": "1996-06-13",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    767,
+                    1791
+                  ]
+                },
+                {
+                  "id": "546146:03800",
+                  "title": "546146",
+                  "type": "hit",
+                  "detail": "单轮基线找到的原裁定引文之一。涉及协议之间是否存在关联；不能直接套用其结论。",
+                  "url": "https://rulings.cbp.gov/ruling/546146",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546146",
+                  "excerpt": "No reference in the Supply Agreement and the Distribution or License Agreements was found which would link the agreements to one another.",
+                  "chunkId": "546146:03800",
+                  "date": "1996-05-10",
+                  "retrieval": "semantic",
+                  "labelHit": true,
+                  "sourceCharacterRange": [
+                    16624,
+                    17833
+                  ]
+                },
+                {
+                  "id": "W548287:08400",
+                  "title": "W548287",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/W548287",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548287",
+                  "excerpt": "",
+                  "chunkId": "W548287:08400",
+                  "date": "2003-06-03",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    41758,
+                    43088
+                  ]
+                },
+                {
+                  "id": "545895:00200",
+                  "title": "545895",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545895",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545895",
+                  "excerpt": "",
+                  "chunkId": "545895:00200",
+                  "date": "1995-06-09",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    741,
+                    1959
+                  ]
+                },
+                {
+                  "id": "W563382:03000",
+                  "title": "W563382",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/W563382",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W563382",
+                  "excerpt": "",
+                  "chunkId": "W563382:03000",
+                  "date": "2006-05-25",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    14234,
+                    15372
+                  ]
+                },
+                {
+                  "id": "W548287:02800",
+                  "title": "W548287",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/W548287",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548287",
+                  "excerpt": "",
+                  "chunkId": "W548287:02800",
+                  "date": "2003-06-03",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    14030,
+                    15284
+                  ]
+                },
+                {
+                  "id": "546787:01400",
+                  "title": "546787",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546787",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546787",
+                  "excerpt": "",
+                  "chunkId": "546787:01400",
+                  "date": "1999-01-11",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    5690,
+                    6679
+                  ]
+                },
+                {
+                  "id": "548560:06000",
+                  "title": "548560",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/548560",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/548560",
+                  "excerpt": "",
+                  "chunkId": "548560:06000",
+                  "date": "2004-09-03",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    28202,
+                    29296
+                  ]
+                }
+              ],
+              "edges": [
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "H004991:03400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "545627:00200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "W548287:06400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "545627:00600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "546433:02400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "W548649:01800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "H100056:08000",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "H100056:08800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "547557:02800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "W548287:02600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "545841:00200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "546146:03800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "W548287:08400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "545895:00200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "W563382:03000",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "W548287:02800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "546787:01400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-flat-query-1",
+                  "to": "548560:06000",
+                  "label": "语义检索",
+                  "type": "semantic"
+                }
+              ],
+              "queryRaw": null
+            }
+          ],
+          "metrics": {
+            "label": "原裁定库内引文恢复",
+            "hits": 1,
+            "total": 3,
+            "hitIds": [
+              "546146"
+            ],
+            "inputTokens": 5310,
+            "outputTokens": 384,
+            "calls": 1,
+            "seconds": 8.391,
+            "evidenceTokens": 4320,
+            "documents": 13,
+            "chunks": 18
+          },
+          "costNote": "输入包含重复读取；秒数仅为本机有效时间，受缓存和分批影响，不能解释为冷启动速度比较。"
+        },
+        "full": {
+          "steps": [
+            {
+              "title": "第 1 轮",
+              "explanation": "本轮新增 6 个语义片段、0 个引用扩展片段。",
+              "nodes": [
+                {
+                  "id": "H029876-full-query-1",
+                  "title": "初始案情",
+                  "type": "query",
+                  "detail": "中文摘要，实际检索使用原始英文事实输入。",
+                  "url": "https://rulings.cbp.gov/ruling/H029876"
+                },
+                {
+                  "id": "H004991:03400",
+                  "title": "H004991",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/H004991",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/H004991",
+                  "excerpt": "",
+                  "chunkId": "H004991:03400",
+                  "date": "2007-04-02",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    15341,
+                    16395
+                  ]
+                },
+                {
+                  "id": "545627:00200",
+                  "title": "545627",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545627",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545627",
+                  "excerpt": "",
+                  "chunkId": "545627:00200",
+                  "date": "1995-09-13",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    635,
+                    1825
+                  ]
+                },
+                {
+                  "id": "W548287:06400",
+                  "title": "W548287",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/W548287",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548287",
+                  "excerpt": "",
+                  "chunkId": "W548287:06400",
+                  "date": "2003-06-03",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    31992,
+                    33247
+                  ]
+                },
+                {
+                  "id": "545627:00600",
+                  "title": "545627",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545627",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545627",
+                  "excerpt": "",
+                  "chunkId": "545627:00600",
+                  "date": "1995-09-13",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    2469,
+                    3707
+                  ]
+                },
+                {
+                  "id": "546433:02400",
+                  "title": "546433",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546433",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546433",
+                  "excerpt": "",
+                  "chunkId": "546433:02400",
+                  "date": "1998-01-09",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    10569,
+                    11671
+                  ]
+                },
+                {
+                  "id": "W548649:01800",
+                  "title": "W548649",
+                  "type": "evidence",
+                  "detail": "首轮取得研发费用话题；下一轮查询转向研发付款，偏离原来的服装商标争点。",
+                  "url": "https://rulings.cbp.gov/ruling/W548649",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548649",
+                  "excerpt": "research costs are applicable to imported merchandise under the Research Agreement",
+                  "chunkId": "W548649:01800",
+                  "date": "2006-09-05",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    8548,
+                    9634
+                  ]
+                }
+              ],
+              "edges": [
+                {
+                  "from": "H029876-full-query-1",
+                  "to": "H004991:03400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-1",
+                  "to": "545627:00200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-1",
+                  "to": "W548287:06400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-1",
+                  "to": "545627:00600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-1",
+                  "to": "546433:02400",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-1",
+                  "to": "W548649:01800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                }
+              ],
+              "queryRaw": null
+            },
+            {
+              "title": "第 2 轮",
+              "explanation": "本轮新增 3 个语义片段、3 个引用扩展片段。 查询转向研发付款；原案主要是服装商标许可。",
+              "nodes": [
+                {
+                  "id": "H029876-full-query-2",
+                  "title": "第 2 轮查询",
+                  "type": "query",
+                  "detail": "模型实际生成的下一轮英文查询：\"royalty payments for research and development under dutiability of research and development payments\"",
+                  "url": "https://rulings.cbp.gov/ruling/H029876"
+                },
+                {
+                  "id": "546203:02800",
+                  "title": "546203",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546203",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546203",
+                  "excerpt": "",
+                  "chunkId": "546203:02800",
+                  "date": "1998-05-21",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    11864,
+                    12735
+                  ]
+                },
+                {
+                  "id": "W548649:07000",
+                  "title": "W548649",
+                  "type": "evidence",
+                  "detail": "第二轮语义检索再次取得研发费用材料。这是查询漂移的可观察路径，不是已证明的心理因果。",
+                  "url": "https://rulings.cbp.gov/ruling/W548649",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W548649",
+                  "excerpt": "Research and Development Costs",
+                  "chunkId": "W548649:07000",
+                  "date": "2006-09-05",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    33386,
+                    34327
+                  ]
+                },
+                {
+                  "id": "W563562:02800",
+                  "title": "W563562",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/W563562",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/W563562",
+                  "excerpt": "",
+                  "chunkId": "W563562:02800",
+                  "date": "2008-11-20",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    12447,
+                    13431
+                  ]
+                },
+                {
+                  "id": "546033:01600",
+                  "title": "546033",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/546033",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/546033",
+                  "excerpt": "",
+                  "chunkId": "546033:01600",
+                  "date": "1996-03-14",
+                  "retrieval": "citation",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    6886,
+                    7932
+                  ]
+                },
+                {
+                  "id": "545379:01000",
+                  "title": "545379",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545379",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545379",
+                  "excerpt": "",
+                  "chunkId": "545379:01000",
+                  "date": "1995-07-07",
+                  "retrieval": "citation",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    4208,
+                    5413
+                  ]
+                },
+                {
+                  "id": "545379:01600",
+                  "title": "545379",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545379",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545379",
+                  "excerpt": "",
+                  "chunkId": "545379:01600",
+                  "date": "1995-07-07",
+                  "retrieval": "citation",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    6900,
+                    8019
+                  ]
+                }
+              ],
+              "edges": [
+                {
+                  "from": "H029876-full-query-2",
+                  "to": "546203:02800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-2",
+                  "to": "W548649:07000",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-2",
+                  "to": "W563562:02800",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "546433:02400",
+                  "to": "546033:01600",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                },
+                {
+                  "from": "H004991:03400",
+                  "to": "545379:01000",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                },
+                {
+                  "from": "H004991:03400",
+                  "to": "545379:01600",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                }
+              ],
+              "queryRaw": "\"royalty payments for research and development under dutiability of research and development payments\""
+            },
+            {
+              "title": "第 3 轮",
+              "explanation": "本轮新增 3 个语义片段、3 个引用扩展片段。",
+              "nodes": [
+                {
+                  "id": "H029876-full-query-3",
+                  "title": "第 3 轮查询",
+                  "type": "query",
+                  "detail": "模型实际生成的下一轮英文查询：Is the royalty payment for the use of a trademark considered a condition of sale under the TAA?",
+                  "url": "https://rulings.cbp.gov/ruling/H029876"
+                },
+                {
+                  "id": "545930:02000",
+                  "title": "545930",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545930",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545930",
+                  "excerpt": "",
+                  "chunkId": "545930:02000",
+                  "date": "1995-06-28",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    8859,
+                    9659
+                  ]
+                },
+                {
+                  "id": "545728:02600",
+                  "title": "545728",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545728",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545728",
+                  "excerpt": "",
+                  "chunkId": "545728:02600",
+                  "date": "1995-11-30",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    11392,
+                    12278
+                  ]
+                },
+                {
+                  "id": "544982:03200",
+                  "title": "544982",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/544982",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/544982",
+                  "excerpt": "",
+                  "chunkId": "544982:03200",
+                  "date": "1995-08-23",
+                  "retrieval": "semantic",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    13886,
+                    14829
+                  ]
+                },
+                {
+                  "id": "545379:00800",
+                  "title": "545379",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545379",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545379",
+                  "excerpt": "",
+                  "chunkId": "545379:00800",
+                  "date": "1995-07-07",
+                  "retrieval": "citation",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    3364,
+                    4376
+                  ]
+                },
+                {
+                  "id": "545951:03800",
+                  "title": "545951",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545951",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545951",
+                  "excerpt": "",
+                  "chunkId": "545951:03800",
+                  "date": "1998-02-12",
+                  "retrieval": "citation",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    16255,
+                    17251
+                  ]
+                },
+                {
+                  "id": "545951:01400",
+                  "title": "545951",
+                  "type": "evidence",
+                  "detail": "本轮实际取得的裁定片段。是否适用当前问题，需要另行核对事实与规范。",
+                  "url": "https://rulings.cbp.gov/ruling/545951",
+                  "apiUrl": "https://rulings.cbp.gov/api/ruling/545951",
+                  "excerpt": "",
+                  "chunkId": "545951:01400",
+                  "date": "1998-02-12",
+                  "retrieval": "citation",
+                  "labelHit": false,
+                  "sourceCharacterRange": [
+                    6116,
+                    7256
+                  ]
+                }
+              ],
+              "edges": [
+                {
+                  "from": "H029876-full-query-3",
+                  "to": "545930:02000",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-3",
+                  "to": "545728:02600",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H029876-full-query-3",
+                  "to": "544982:03200",
+                  "label": "语义检索",
+                  "type": "semantic"
+                },
+                {
+                  "from": "H004991:03400",
+                  "to": "545379:00800",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                },
+                {
+                  "from": "W548649:07000",
+                  "to": "545951:03800",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                },
+                {
+                  "from": "W548649:07000",
+                  "to": "545951:01400",
+                  "label": "已读片段中的明确引用",
+                  "type": "citation"
+                }
+              ],
+              "queryRaw": "Is the royalty payment for the use of a trademark considered a condition of sale under the TAA?"
+            }
+          ],
+          "metrics": {
+            "label": "原裁定库内引文恢复",
+            "hits": 0,
+            "total": 3,
+            "hitIds": [],
+            "inputTokens": 11246,
+            "outputTokens": 423,
+            "calls": 3,
+            "seconds": 7.903,
+            "evidenceTokens": 4320,
+            "documents": 13,
+            "chunks": 18
+          },
+          "costNote": "输入包含重复读取；秒数仅为本机有效时间，受缓存和分批影响，不能解释为冷启动速度比较。"
+        }
+      },
+      "limitations": [
+        "此处是 2026-09-14 实验的静态回放；动画不会调用模型。",
+        "问题是中文讲解摘要；实际模型输入为经隔离处理的英文事实段。",
+        "命中指取回原裁定引用过的文档，不代表法律支持成立或估价正确。",
+        "美国裁定用于检索研究，不能直接作为中国征税依据。"
+      ]
+    }
+  ],
+  "aggregate": {
+    "cases": 20,
+    "methods": 5,
+    "runs": 100,
+    "collectedRecords": 255,
+    "eligibleCitationPairs": 129,
+    "flatHits": 17,
+    "fullHits": 24,
+    "flatRecall": 13.2,
+    "fullRecall": 18.6,
+    "improved": 9,
+    "worse": 4,
+    "tied": 7,
+    "inputRatio": 2.13,
+    "definition": "库内引文恢复率，合并分子分母；不是税务判断准确率。",
+    "limitations": [
+      "两个展示案例不是全样本典型效果。",
+      "20份抽样备忘均发现至少一处支持不足；100份输出均未遵循精确片段定位格式。",
+      "99份最终备忘达到输出长度上限，不据此推断所有模型表现。"
+    ]
+  },
+  "sources": [
+    {
+      "title": "CBP CROSS 官方裁定库",
+      "url": "https://rulings.cbp.gov/"
+    },
+    {
+      "title": "IRCoT · ACL 2023",
+      "url": "https://aclanthology.org/2023.acl-long.557/"
+    },
+    {
+      "title": "GraphRAG · arXiv v2",
+      "url": "https://arxiv.org/abs/2404.16130v2"
+    },
+    {
+      "title": "CLERC · NAACL Findings 2025",
+      "url": "https://aclanthology.org/2025.findings-naacl.441/"
+    }
+  ],
+  "boundaries": {
+    "real": "真实模型实验的已保存检索轨迹；节点布局和动画仅负责讲解。",
+    "teaching": "水果、运动和心情等教学路径是人工编排示意，不是已证实的健康因果链。",
+    "live": "此站点没有实时推理、训练或合同审查能力。"
+  }
+}
