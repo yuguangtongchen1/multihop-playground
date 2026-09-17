@@ -1,0 +1,990 @@
+{
+  "id": "toothbrush",
+  "title": "这把电动牙刷，为什么不能只搜“牙刷”？",
+  "kind": "guided-source-demo",
+  "jurisdiction": "美国 · CBP · 历史 HTSUS / HTSUSA",
+  "period": "主案 2004-09-07；被引前案 1990-12-04",
+  "verifiedOn": "2026-09-17",
+  "notice": "根据官方裁定编排的交互式教学流程，不是新增模型运行；编码仅对应历史美国案例，不可直接用于中国或当前申报。",
+  "question": "带电机、静止与旋转刷毛的 Spinbrush，整机、配套电池与单独替换刷头应如何区分？",
+  "attributes": [
+    {
+      "id": "motor",
+      "label": "完整牙刷内置电机，驱动部分刷毛旋转",
+      "value": "电池驱动；同时有静止刷毛",
+      "required": true,
+      "defaultConfirmed": false
+    },
+    {
+      "id": "domestic",
+      "label": "家用且整机小于20千克",
+      "value": "主案判理明确确认",
+      "required": true,
+      "defaultConfirmed": false
+    },
+    {
+      "id": "package",
+      "label": "整机与两节AA电池以零售泡罩包装进口",
+      "value": "不是只进口替换刷头",
+      "required": true,
+      "defaultConfirmed": false
+    }
+  ],
+  "evidence": [
+    {
+      "id": "spinbrush",
+      "title": "HQ 966794 · Spinbrush主案",
+      "url": "https://rulings.cbp.gov/api/ruling/966794",
+      "excerpt": "",
+      "interpretation": "该案比较整机与普通牙刷税目，并单独处理零售套装和替换刷头。",
+      "date": "2004-09-07",
+      "classification": "整机8509.80.0045；单独替换刷头9603.21.0000（历史裁定）",
+      "sourceTextAnchor": "8509.80.0045",
+      "locator": "HOLDING",
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "sourceCharacterRange": [
+        20569,
+        20581
+      ],
+      "context": "8509.80.0045",
+      "highlightText": "8509.80.0045",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。"
+    },
+    {
+      "id": "plaktrac",
+      "title": "HQ 087396 · 被明确引用的电动牙刷前案",
+      "url": "https://rulings.cbp.gov/api/ruling/087396",
+      "excerpt": "",
+      "interpretation": "该前案区分随完整电机家用器具进口的刷子，与单独进口的刷毛组件。",
+      "date": "1990-12-04",
+      "classification": "整机8509.80.00；单独刷毛组件9603.21.00（该年裁定）",
+      "sourceTextAnchor": "the brushes are imported with the entire electromechanical",
+      "locator": "LAW AND ANALYSIS",
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "sourceCharacterRange": [
+        2792,
+        2850
+      ],
+      "context": "the brushes are imported with the entire electromechanical",
+      "highlightText": "entire electromechanical",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。"
+    },
+    {
+      "id": "cited-link",
+      "title": "HQ966794中的明确引用位置",
+      "url": "https://rulings.cbp.gov/api/ruling/966794",
+      "excerpt": "",
+      "sourceTextAnchor": "HQ 087396",
+      "date": "2004-09-07",
+      "locator": "LAW AND ANALYSIS · I. Classification",
+      "sourceCharacterRange": [
+        10155,
+        10164
+      ],
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "interpretation": "主案确实同时指向087396和965440。选择前案后仍须核对商品差异。",
+      "context": "HQ 087396",
+      "highlightText": "087396",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。"
+    },
+    {
+      "id": "wetjet",
+      "title": "HQ965440 · Swiffer Wet Jet，商品不同的比较材料",
+      "url": "https://rulings.cbp.gov/api/ruling/965440",
+      "excerpt": "",
+      "sourceTextAnchor": "the motor is only a part of the sprayer unit",
+      "date": "2002-08-07",
+      "locator": "FACTS",
+      "sourceCharacterRange": [
+        1649,
+        1693
+      ],
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "interpretation": "此案是带电机喷液装置的清洁工具；可以比较内置电机问题，不能冒充牙刷裁定。",
+      "classification": "仅用于比较，不作本牙刷的独立归类结论",
+      "context": "the motor is only a part of the sprayer unit",
+      "highlightText": "sprayer unit",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。"
+    },
+    {
+      "id": "motor-facts",
+      "title": "HQ966794 · 结构与动力",
+      "url": "https://rulings.cbp.gov/api/ruling/966794",
+      "excerpt": "",
+      "sourceTextAnchor": "battery-operated motor",
+      "locator": "FACTS · 结构与动力",
+      "sourceCharacterRange": [
+        2603,
+        2625
+      ],
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "interpretation": "刷头同时有静止刷毛和电机驱动旋转刷毛；不能仅按“牙刷”商品名判断。",
+      "date": "2004-09-07",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。",
+      "context": "battery-operated motor",
+      "highlightText": "motor"
+    },
+    {
+      "id": "retail-facts",
+      "title": "HQ966794 · 进口包装",
+      "url": "https://rulings.cbp.gov/api/ruling/966794",
+      "excerpt": "",
+      "sourceTextAnchor": "two AA alkaline disposable batteries",
+      "locator": "FACTS · 进口包装",
+      "sourceCharacterRange": [
+        2649,
+        2685
+      ],
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "interpretation": "整机与两节AA电池以零售泡罩包装进口；此信息决定是否还要核查成套规则。",
+      "date": "2004-09-07",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。",
+      "context": "two AA alkaline disposable batteries",
+      "highlightText": "two AA"
+    },
+    {
+      "id": "motor-scope",
+      "title": "HQ966794 · 8509适用条件",
+      "url": "https://rulings.cbp.gov/api/ruling/966794",
+      "excerpt": "",
+      "sourceTextAnchor": "weighing less than 20 kg",
+      "locator": "LAW AND ANALYSIS · 8509适用条件",
+      "sourceCharacterRange": [
+        9845,
+        9869
+      ],
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "interpretation": "本案判理确认家用、小于20千克且内置电机，并据此解释8509范围。",
+      "date": "2004-09-07",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。",
+      "context": "weighing less than 20 kg",
+      "highlightText": "20 kg"
+    },
+    {
+      "id": "set-rule",
+      "title": "HQ966794 · 零售成套",
+      "url": "https://rulings.cbp.gov/api/ruling/966794",
+      "excerpt": "",
+      "sourceTextAnchor": "essential character is imparted by the toothbrush",
+      "locator": "LAW AND ANALYSIS · 零售成套",
+      "sourceCharacterRange": [
+        12444,
+        12493
+      ],
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "interpretation": "本案先处理牙刷，再处理与电池构成的零售套装，以牙刷赋予基本特征。",
+      "date": "2004-09-07",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。",
+      "context": "essential character is imparted by the toothbrush",
+      "highlightText": "the toothbrush"
+    },
+    {
+      "id": "separate-head",
+      "title": "HQ087396 · 单独组件",
+      "url": "https://rulings.cbp.gov/api/ruling/087396",
+      "excerpt": "",
+      "sourceTextAnchor": "are imported separately",
+      "locator": "LAW AND ANALYSIS · 单独组件",
+      "sourceCharacterRange": [
+        4111,
+        4134
+      ],
+      "offsetBasis": "zero-based characters in official JSON text; original CR retained",
+      "interpretation": "前案把单独进口的刷毛组件与完整器具区分；需先知道实际进口形态。",
+      "date": "1990-12-04",
+      "displayNote": "原文短摘录；下方中文为讲解，不是逐字翻译。",
+      "context": "are imported separately",
+      "highlightText": "imported separately"
+    }
+  ],
+  "steps": [
+    {
+      "id": "facts",
+      "title": "先核对：进口的究竟是什么",
+      "query": "Spinbrush battery motor stationary rotating bristles retail batteries",
+      "reason": "商品名不足以区分完整电动器具与单独刷头。",
+      "evidenceIds": [
+        "spinbrush"
+      ],
+      "gap": "电机、用途重量、进口包装尚需逐项确认。",
+      "nextLabel": "确认属性，继续找归类依据",
+      "conclusion": "本演示属性取自主案；勾选表示你已读懂，不表示提交了真实商品证明。"
+    },
+    {
+      "id": "headings",
+      "title": "从名称相似，走向两个候选税目",
+      "query": "Spinbrush heading 8509 versus 9603 self-contained motor",
+      "reason": "主案争点正是电机家用器具与牙刷税目之间的界限。",
+      "evidenceIds": [
+        "spinbrush"
+      ],
+      "gap": "混合静止刷毛是否使整机仍落入普通牙刷范围？",
+      "nextLabel": "打开文中引用的前案",
+      "conclusion": "主案明确引用HQ087396；下一步沿这一真实文献关系阅读。"
+    },
+    {
+      "id": "citation",
+      "title": "跳到前案：核对“整机”与“组件”的边界",
+      "query": "HQ 087396 electric toothbrush complete appliance separately imported pods",
+      "reason": "不是再次搜同一个商品名，而是追查前一步出现的具体裁定号。",
+      "evidenceIds": [
+        "plaktrac"
+      ],
+      "gap": "前案支持比较进口形态，但本案还有配套AA电池，不能直接照搬全部结论。",
+      "nextLabel": "带着剩余问题回到主案",
+      "conclusion": "前案把完整电动器具与单独刷毛组件分开归类。此引用是实际存在的，页面顺序是教学编排。"
+    },
+    {
+      "id": "set",
+      "title": "回到主案：处理零售套装并保留条件",
+      "query": "HQ 966794 AA batteries retail set essential character replacement heads",
+      "reason": "包装中含电池，须查看套装处理，不能停在品目相似判断。",
+      "evidenceIds": [
+        "spinbrush"
+      ],
+      "gap": "换产品、换进口形态、换年份或法域，需要重新核验。",
+      "nextLabel": "生成本案例的教学结论",
+      "conclusion": "主案将牙刷视为套装基本特征来源；独立进口的替换刷头另行处理。"
+    }
+  ],
+  "conclusion": {
+    "text": "仅就2004年HQ966794所述商品：整机零售套装归入8509.80.0045，单独替换刷头归入9603.21.0000。HQ087396用于理解整机与组件的区别。",
+    "citations": [
+      "spinbrush",
+      "plaktrac"
+    ],
+    "limitations": [
+      "这是历史美国裁定解读，不是当前税则查询或中国归类建议。",
+      "核对框是教学交互，不是模型识别、真实验货或海关确认。",
+      "所有路径由作者依据来源编排；没有新模型输出、命中率或运行成本。",
+      "当前实际申报还须核实完整商品资料、适用年份规则及裁定效力。"
+    ]
+  },
+  "relations": [
+    {
+      "from": "spinbrush",
+      "to": "plaktrac",
+      "type": "explicit-citation",
+      "label": "HQ966794在判理中明确引用HQ087396",
+      "evidenceId": "cited-link"
+    },
+    {
+      "from": "spinbrush",
+      "to": "wetjet",
+      "type": "explicit-citation",
+      "label": "HQ966794明确引用HQ965440",
+      "evidenceId": "cited-link"
+    }
+  ],
+  "verification": {
+    "method": "2026-09-17直接GET官方CROSS API，人工核对FACTS、LAW AND ANALYSIS与HOLDING",
+    "sources": [
+      {
+        "id": "966794",
+        "date": "2004-09-07",
+        "collection": "hq",
+        "textSha256": "c925cf39967484179a740beb75ec8d3cafcf4de263a0910b28ecf4828c2e89f0",
+        "modifiedBy": null,
+        "revokedBy": null,
+        "statusNote": "接口未列修改或撤销；不据此保证当前适用或税码不变。"
+      },
+      {
+        "id": "087396",
+        "date": "1990-12-04",
+        "collection": "hq",
+        "textSha256": "533455929d0452e21cfc9108b32274b4d5d29b0a4e170db83a08a64839c6ecf6",
+        "modifiedBy": null,
+        "revokedBy": null,
+        "statusNote": "接口未列修改或撤销；不据此保证当前适用或税码不变。"
+      },
+      {
+        "id": "965440",
+        "date": "2002-08-07",
+        "collection": "hq",
+        "textSha256": "eae99e6e04713eecb75f7699fd154069a4e4ee6793187f7e5eaec8de5ad1c9ff",
+        "statusNote": "核验了原文内容，不保证现行税码或效力。"
+      }
+    ]
+  },
+  "graph": {
+    "start": "start",
+    "nodes": [
+      {
+        "id": "start",
+        "title": "先辨认进口形态",
+        "question": "现在掌握的商品资料够不够？",
+        "evidenceIds": [
+          "motor-facts",
+          "retail-facts",
+          "motor-scope"
+        ],
+        "sourceIds": [
+          "motor-facts",
+          "retail-facts",
+          "motor-scope"
+        ],
+        "options": [
+          {
+            "id": "whole",
+            "label": "完整电动牙刷与电池套装",
+            "reason": "属性与主案接近，继续比较税目。",
+            "next": "compare",
+            "evidenceIds": [
+              "spinbrush"
+            ],
+            "type": "teaching-choice",
+            "pendingQuestion": "还要核对：电机与静止刷毛组成的完整器具，是否超出9603范围，以及被引前案是否同类。",
+            "supportEvidenceIds": [
+              "motor-facts",
+              "retail-facts",
+              "motor-scope"
+            ],
+            "supportSummary": "同样叫牙刷，完整电机器具与单独刷头在本案中有不同处理。先确认动力和进口包装，才能选有意义的查证方向。"
+          },
+          {
+            "id": "head",
+            "label": "只有单独替换刷头",
+            "reason": "不能把整机税号搬给组件，转查进口形态。",
+            "next": "head-check",
+            "evidenceIds": [
+              "spinbrush",
+              "plaktrac"
+            ],
+            "type": "teaching-choice",
+            "pendingQuestion": "是否确为本案所述独立替换刷头，还是其他结构的零件，仍需商品说明与包装资料。",
+            "supportEvidenceIds": [
+              "motor-facts",
+              "retail-facts",
+              "motor-scope"
+            ],
+            "supportSummary": "同样叫牙刷，完整电机器具与单独刷头在本案中有不同处理。先确认动力和进口包装，才能选有意义的查证方向。"
+          },
+          {
+            "id": "unknown",
+            "label": "电机或包装情况不明",
+            "reason": "关键事实缺失，应先补资料而不是继续猜码。",
+            "next": "need-facts",
+            "evidenceIds": [],
+            "type": "teaching-choice",
+            "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+            "supportEvidenceIds": [
+              "motor-facts",
+              "retail-facts",
+              "motor-scope"
+            ],
+            "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。"
+          }
+        ],
+        "status": "active",
+        "query": "Spinbrush electric motor imported with AA batteries",
+        "reason": "同样叫牙刷，完整电机器具与单独刷头在本案中有不同处理。先确认动力和进口包装，才能选有意义的查证方向。",
+        "gap": "目前只有商品名称；未确认内置电机、家用及重量、整机与电池是否同一零售包装。",
+        "summary": "先做事实分流，不从商品名称直接报码。"
+      },
+      {
+        "id": "compare",
+        "title": "遇到两个税目：8509 / 9603",
+        "question": "接下来先核对哪个问题？",
+        "evidenceIds": [
+          "motor-facts",
+          "motor-scope",
+          "cited-link"
+        ],
+        "sourceIds": [
+          "motor-facts",
+          "motor-scope",
+          "cited-link"
+        ],
+        "options": [
+          {
+            "id": "prior-toothbrush",
+            "label": "追查同类电动牙刷前案087396",
+            "reason": "主案明确引用；先看整机与刷头边界。",
+            "next": "plak",
+            "evidenceIds": [
+              "cited-link"
+            ],
+            "type": "explicit-citation",
+            "pendingQuestion": "该前案带充电底座，本案与AA电池零售包装；前案不能替代本案的成套处理。",
+            "supportEvidenceIds": [
+              "cited-link"
+            ],
+            "supportSummary": "已确认内置电机与混合刷毛。主案的争点是8509电机家用器具与9603牙刷范围；静止刷毛并不自动意味着整机可按普通刷子处理。"
+          },
+          {
+            "id": "other-motor",
+            "label": "追查另一内置电机前案965440",
+            "reason": "主案也引用，但商品不同，要检验类比是否适当。",
+            "next": "wetjet",
+            "evidenceIds": [
+              "cited-link"
+            ],
+            "type": "explicit-citation",
+            "pendingQuestion": "是否具有内置电机只是一个属性；商品用途和结构不同，仍缺足以把该类比直接用于牙刷的理由。",
+            "supportEvidenceIds": [
+              "cited-link"
+            ],
+            "supportSummary": "已确认内置电机与混合刷毛。主案的争点是8509电机家用器具与9603牙刷范围；静止刷毛并不自动意味着整机可按普通刷子处理。"
+          },
+          {
+            "id": "gaps",
+            "label": "暂不能确认是整机",
+            "reason": "税目比较建立在商品形态上，先补证。",
+            "next": "need-facts",
+            "evidenceIds": [],
+            "type": "teaching-choice",
+            "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+            "supportEvidenceIds": [
+              "motor-facts",
+              "motor-scope",
+              "cited-link"
+            ],
+            "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。"
+          }
+        ],
+        "status": "active",
+        "query": "HQ 966794 heading 8509 9603",
+        "reason": "已确认内置电机与混合刷毛。主案的争点是8509电机家用器具与9603牙刷范围；静止刷毛并不自动意味着整机可按普通刷子处理。",
+        "gap": "还要核对：电机与静止刷毛组成的完整器具，是否超出9603范围，以及被引前案是否同类。",
+        "summary": "主案列出冲突并明确指向两份前案，下一步可以选择更近的牙刷案或检验另一电机家用器具类比。"
+      },
+      {
+        "id": "plak",
+        "title": "前案087396：完整器具还是单独组件",
+        "question": "该前案能解决哪些问题，哪些还没解决？",
+        "evidenceIds": [
+          "plaktrac",
+          "separate-head",
+          "retail-facts"
+        ],
+        "sourceIds": [
+          "plaktrac",
+          "separate-head",
+          "retail-facts"
+        ],
+        "options": [
+          {
+            "id": "set-gap",
+            "label": "回主案继续核对配套电池",
+            "reason": "前案有充电底座，本案是AA电池零售包装，成套问题仍需本案依据。",
+            "next": "set",
+            "evidenceIds": [
+              "spinbrush"
+            ],
+            "type": "return-to-source",
+            "pendingQuestion": "尚需确认实际进口时是否同一零售包装；电池单独进口或组合不同不在此确认范围。",
+            "supportEvidenceIds": [
+              "plaktrac",
+              "separate-head",
+              "retail-facts"
+            ],
+            "supportSummary": "087396针对完整电动牙刷，区分整机进口与单独刷毛组件；它直接回应前一步的器具/组件界限。"
+          },
+          {
+            "id": "parts",
+            "label": "改查单独刷头情形",
+            "reason": "若进口形态变了，整机结论不能继续使用。",
+            "next": "head-check",
+            "evidenceIds": [
+              "plaktrac"
+            ],
+            "type": "teaching-choice",
+            "pendingQuestion": "是否确为本案所述独立替换刷头，还是其他结构的零件，仍需商品说明与包装资料。",
+            "supportEvidenceIds": [
+              "plaktrac",
+              "separate-head",
+              "retail-facts"
+            ],
+            "supportSummary": "087396针对完整电动牙刷，区分整机进口与单独刷毛组件；它直接回应前一步的器具/组件界限。"
+          },
+          {
+            "id": "need-doc",
+            "label": "实际商品资料与前案不符",
+            "reason": "需要商品说明与进口包装资料，不扩大前案效力。",
+            "next": "need-facts",
+            "evidenceIds": [],
+            "type": "teaching-choice",
+            "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+            "supportEvidenceIds": [
+              "plaktrac",
+              "separate-head",
+              "retail-facts"
+            ],
+            "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。"
+          }
+        ],
+        "status": "active",
+        "query": "HQ 087396 complete appliance separately imported brush pods",
+        "reason": "087396针对完整电动牙刷，区分整机进口与单独刷毛组件；它直接回应前一步的器具/组件界限。",
+        "gap": "该前案带充电底座，本案与AA电池零售包装；前案不能替代本案的成套处理。",
+        "summary": "进口形态界限已有来源；带着未解决的电池成套问题返回主案。"
+      },
+      {
+        "id": "wetjet",
+        "title": "前案965440：不是牙刷，是清洁工具",
+        "question": "这条类比路径值得继续吗？",
+        "evidenceIds": [
+          "wetjet",
+          "cited-link"
+        ],
+        "sourceIds": [
+          "wetjet",
+          "cited-link"
+        ],
+        "options": [
+          {
+            "id": "back-toothbrush",
+            "label": "转回更接近的牙刷前案",
+            "reason": "内置电机讨论有比较价值，但该商品是喷液清洁工具。",
+            "next": "plak",
+            "evidenceIds": [
+              "plaktrac"
+            ],
+            "type": "teaching-comparison",
+            "pendingQuestion": "该前案带充电底座，本案与AA电池零售包装；前案不能替代本案的成套处理。",
+            "supportEvidenceIds": [
+              "wetjet",
+              "cited-link"
+            ],
+            "supportSummary": "965440由主案明确引用，但商品是带喷液装置的清洁工具。它可供比较内置电机范围，不能当作同款牙刷案例。"
+          },
+          {
+            "id": "read-set",
+            "label": "回主案核对本案零售包装",
+            "reason": "不拿清洁工具结论直接套牙刷，回到目标商品。",
+            "next": "set",
+            "evidenceIds": [
+              "spinbrush"
+            ],
+            "type": "return-to-source",
+            "pendingQuestion": "尚需确认实际进口时是否同一零售包装；电池单独进口或组合不同不在此确认范围。",
+            "supportEvidenceIds": [
+              "wetjet",
+              "cited-link"
+            ],
+            "supportSummary": "965440由主案明确引用，但商品是带喷液装置的清洁工具。它可供比较内置电机范围，不能当作同款牙刷案例。"
+          },
+          {
+            "id": "wrong",
+            "label": "仅凭内置电机就给当前商品报码",
+            "reason": "类比不足，不能产生可用判断。",
+            "next": "insufficient",
+            "evidenceIds": [],
+            "type": "insufficient-choice",
+            "pendingQuestion": "尚未用牙刷对应的结构、进口形态及成套判理验证该类比。",
+            "supportEvidenceIds": [
+              "wetjet",
+              "cited-link"
+            ],
+            "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。"
+          }
+        ],
+        "status": "active",
+        "query": "HQ 965440 Swiffer Wet Jet self-contained motor",
+        "reason": "965440由主案明确引用，但商品是带喷液装置的清洁工具。它可供比较内置电机范围，不能当作同款牙刷案例。",
+        "gap": "是否具有内置电机只是一个属性；商品用途和结构不同，仍缺足以把该类比直接用于牙刷的理由。",
+        "summary": "保留商品差异，选择更接近的牙刷前案或回主案，避免单凭电机类比完成归类。"
+      },
+      {
+        "id": "head-check",
+        "title": "只进口刷头：另开判断",
+        "question": "能确认就是裁定所述单独替换部件吗？",
+        "evidenceIds": [
+          "separate-head",
+          "spinbrush"
+        ],
+        "sourceIds": [
+          "separate-head",
+          "spinbrush"
+        ],
+        "options": [
+          {
+            "id": "historical-part",
+            "label": "仅查看历史组件结论",
+            "reason": "主案单独替换刷头的历史编码为9603.21.0000。",
+            "next": "part-result",
+            "evidenceIds": [
+              "spinbrush"
+            ],
+            "type": "teaching-choice",
+            "pendingQuestion": "未证明实际新商品与该替换刷头相同，也未核现行版本。",
+            "supportEvidenceIds": [
+              "separate-head",
+              "spinbrush"
+            ],
+            "supportSummary": "单独刷头没有以完整电动器具形态进口，主案及前案都另行讨论组件；整机编码不能沿用。"
+          },
+          {
+            "id": "uncertain-part",
+            "label": "型号或进口形态仍不清楚",
+            "reason": "补充图纸、功能及包装资料后再归类。",
+            "next": "need-facts",
+            "evidenceIds": [],
+            "type": "teaching-choice",
+            "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+            "supportEvidenceIds": [
+              "separate-head",
+              "spinbrush"
+            ],
+            "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。"
+          }
+        ],
+        "status": "active",
+        "query": "HQ 966794 replacement heads imported separately",
+        "reason": "单独刷头没有以完整电动器具形态进口，主案及前案都另行讨论组件；整机编码不能沿用。",
+        "gap": "是否确为本案所述独立替换刷头，还是其他结构的零件，仍需商品说明与包装资料。",
+        "summary": "分开观察整机和组件，仅在历史裁定描述范围内展示组件结论。"
+      },
+      {
+        "id": "set",
+        "title": "回主案处理零售套装",
+        "question": "是否已经确认牙刷与两节AA电池的零售包装？",
+        "evidenceIds": [
+          "retail-facts",
+          "set-rule"
+        ],
+        "sourceIds": [
+          "retail-facts",
+          "set-rule"
+        ],
+        "options": [
+          {
+            "id": "confirmed-set",
+            "label": "已读并确认本教学案的包装条件",
+            "reason": "在历史案情范围内归纳结论。",
+            "next": "result",
+            "evidenceIds": [
+              "spinbrush"
+            ],
+            "type": "teaching-choice",
+            "pendingQuestion": "未核现行税则、当前裁定效力或任何新商品，不能延伸为当下申报码。",
+            "supportEvidenceIds": [
+              "retail-facts",
+              "set-rule"
+            ],
+            "supportSummary": "已读前案帮助区分完整器具，但本案还含两节AA电池。主案另依零售成套分析，由牙刷提供基本特征。"
+          },
+          {
+            "id": "different-set",
+            "label": "实际包装不同或尚不清楚",
+            "reason": "不能自动沿用成套判断。",
+            "next": "need-facts",
+            "evidenceIds": [],
+            "type": "teaching-choice",
+            "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+            "supportEvidenceIds": [
+              "retail-facts",
+              "set-rule"
+            ],
+            "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。"
+          }
+        ],
+        "status": "active",
+        "query": "HQ 966794 retail set batteries essential character",
+        "reason": "已读前案帮助区分完整器具，但本案还含两节AA电池。主案另依零售成套分析，由牙刷提供基本特征。",
+        "gap": "尚需确认实际进口时是否同一零售包装；电池单独进口或组合不同不在此确认范围。",
+        "summary": "把进口包装事实与主案成套判理对照，再形成限定本案的结论。"
+      },
+      {
+        "id": "result",
+        "title": "形成有条件的历史结论",
+        "question": "2004年本案整机套装：8509.80.0045；不作现行申报建议。",
+        "evidenceIds": [
+          "set-rule",
+          "spinbrush"
+        ],
+        "sourceIds": [
+          "set-rule",
+          "spinbrush"
+        ],
+        "options": [],
+        "status": "final",
+        "query": "无需继续检索：核对来源或补资料",
+        "reason": "电机和进口形态已在教学中确认；主案成套判理与HOLDING相互对应，能归纳历史结果。",
+        "gap": "未核现行税则、当前裁定效力或任何新商品，不能延伸为当下申报码。",
+        "summary": "完成的是2004年Spinbrush历史案例解读。"
+      },
+      {
+        "id": "part-result",
+        "title": "组件分支：历史结论",
+        "question": "2004年本案单独替换刷头：9603.21.0000；不是整机归类。",
+        "evidenceIds": [
+          "separate-head",
+          "spinbrush"
+        ],
+        "sourceIds": [
+          "separate-head",
+          "spinbrush"
+        ],
+        "options": [],
+        "status": "final",
+        "query": "无需继续检索：核对来源或补资料",
+        "reason": "组件分支有单独进口刷头的来源，主案HOLDING给出独立编码。",
+        "gap": "未证明实际新商品与该替换刷头相同，也未核现行版本。",
+        "summary": "独立刷头结果与整机分开，限定历史案情。"
+      },
+      {
+        "id": "need-facts",
+        "title": "停下来，先补材料",
+        "question": "请补商品说明、内置电机情况、完整进口形态及包装信息，再核适用法域与年份。",
+        "evidenceIds": [],
+        "sourceIds": [],
+        "options": [],
+        "status": "stop",
+        "query": "无需继续检索：核对来源或补资料",
+        "reason": "缺少改变归类路线的关键商品事实，继续搜相似名称不能补出实际结构或包装。",
+        "gap": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+        "summary": "停止判断，提出补资料清单。"
+      },
+      {
+        "id": "insufficient",
+        "title": "这条推断暂时不能成立",
+        "question": "不同商品都带电机，不足以证明它们归类相同；返回并核对更接近的材料。",
+        "evidenceIds": [
+          "wetjet"
+        ],
+        "sourceIds": [
+          "wetjet"
+        ],
+        "options": [],
+        "status": "stop",
+        "query": "无需继续检索：核对来源或补资料",
+        "reason": "清洁工具与牙刷都含电机，不足以证明它们在所有归类条件上相同。",
+        "gap": "尚未用牙刷对应的结构、进口形态及成套判理验证该类比。",
+        "summary": "停止这条不足的类比，可返回同类前案继续查证。"
+      }
+    ],
+    "notice": "所有分支是基于官方材料编排的查证教学，不是模型实时选择；只有标记明确引用的边是原文引文关系。",
+    "edges": [
+      {
+        "from": "start",
+        "to": "compare",
+        "type": "teaching-choice",
+        "label": "完整电动牙刷与电池套装",
+        "explanation": "属性与主案接近，继续比较税目。",
+        "evidenceIds": [
+          "motor-facts",
+          "retail-facts",
+          "motor-scope"
+        ],
+        "pendingQuestion": "还要核对：电机与静止刷毛组成的完整器具，是否超出9603范围，以及被引前案是否同类。",
+        "supportSummary": "同样叫牙刷，完整电机器具与单独刷头在本案中有不同处理。先确认动力和进口包装，才能选有意义的查证方向。",
+        "optionId": "whole"
+      },
+      {
+        "from": "start",
+        "to": "head-check",
+        "type": "teaching-choice",
+        "label": "只有单独替换刷头",
+        "explanation": "不能把整机税号搬给组件，转查进口形态。",
+        "evidenceIds": [
+          "motor-facts",
+          "retail-facts",
+          "motor-scope"
+        ],
+        "pendingQuestion": "是否确为本案所述独立替换刷头，还是其他结构的零件，仍需商品说明与包装资料。",
+        "supportSummary": "同样叫牙刷，完整电机器具与单独刷头在本案中有不同处理。先确认动力和进口包装，才能选有意义的查证方向。",
+        "optionId": "head"
+      },
+      {
+        "from": "start",
+        "to": "need-facts",
+        "type": "teaching-choice",
+        "label": "电机或包装情况不明",
+        "explanation": "关键事实缺失，应先补资料而不是继续猜码。",
+        "evidenceIds": [
+          "motor-facts",
+          "retail-facts",
+          "motor-scope"
+        ],
+        "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+        "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。",
+        "optionId": "unknown"
+      },
+      {
+        "from": "compare",
+        "to": "plak",
+        "type": "explicit-citation",
+        "label": "追查同类电动牙刷前案087396",
+        "explanation": "主案明确引用；先看整机与刷头边界。",
+        "evidenceIds": [
+          "cited-link"
+        ],
+        "pendingQuestion": "该前案带充电底座，本案与AA电池零售包装；前案不能替代本案的成套处理。",
+        "supportSummary": "已确认内置电机与混合刷毛。主案的争点是8509电机家用器具与9603牙刷范围；静止刷毛并不自动意味着整机可按普通刷子处理。",
+        "optionId": "prior-toothbrush"
+      },
+      {
+        "from": "compare",
+        "to": "wetjet",
+        "type": "explicit-citation",
+        "label": "追查另一内置电机前案965440",
+        "explanation": "主案也引用，但商品不同，要检验类比是否适当。",
+        "evidenceIds": [
+          "cited-link"
+        ],
+        "pendingQuestion": "是否具有内置电机只是一个属性；商品用途和结构不同，仍缺足以把该类比直接用于牙刷的理由。",
+        "supportSummary": "已确认内置电机与混合刷毛。主案的争点是8509电机家用器具与9603牙刷范围；静止刷毛并不自动意味着整机可按普通刷子处理。",
+        "optionId": "other-motor"
+      },
+      {
+        "from": "compare",
+        "to": "need-facts",
+        "type": "teaching-choice",
+        "label": "暂不能确认是整机",
+        "explanation": "税目比较建立在商品形态上，先补证。",
+        "evidenceIds": [
+          "motor-facts",
+          "motor-scope",
+          "cited-link"
+        ],
+        "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+        "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。",
+        "optionId": "gaps"
+      },
+      {
+        "from": "plak",
+        "to": "set",
+        "type": "return-to-source",
+        "label": "回主案继续核对配套电池",
+        "explanation": "前案有充电底座，本案是AA电池零售包装，成套问题仍需本案依据。",
+        "evidenceIds": [
+          "plaktrac",
+          "separate-head",
+          "retail-facts"
+        ],
+        "pendingQuestion": "尚需确认实际进口时是否同一零售包装；电池单独进口或组合不同不在此确认范围。",
+        "supportSummary": "087396针对完整电动牙刷，区分整机进口与单独刷毛组件；它直接回应前一步的器具/组件界限。",
+        "optionId": "set-gap"
+      },
+      {
+        "from": "plak",
+        "to": "head-check",
+        "type": "teaching-choice",
+        "label": "改查单独刷头情形",
+        "explanation": "若进口形态变了，整机结论不能继续使用。",
+        "evidenceIds": [
+          "plaktrac",
+          "separate-head",
+          "retail-facts"
+        ],
+        "pendingQuestion": "是否确为本案所述独立替换刷头，还是其他结构的零件，仍需商品说明与包装资料。",
+        "supportSummary": "087396针对完整电动牙刷，区分整机进口与单独刷毛组件；它直接回应前一步的器具/组件界限。",
+        "optionId": "parts"
+      },
+      {
+        "from": "plak",
+        "to": "need-facts",
+        "type": "teaching-choice",
+        "label": "实际商品资料与前案不符",
+        "explanation": "需要商品说明与进口包装资料，不扩大前案效力。",
+        "evidenceIds": [
+          "plaktrac",
+          "separate-head",
+          "retail-facts"
+        ],
+        "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+        "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。",
+        "optionId": "need-doc"
+      },
+      {
+        "from": "wetjet",
+        "to": "plak",
+        "type": "teaching-comparison",
+        "label": "转回更接近的牙刷前案",
+        "explanation": "内置电机讨论有比较价值，但该商品是喷液清洁工具。",
+        "evidenceIds": [
+          "wetjet",
+          "cited-link"
+        ],
+        "pendingQuestion": "该前案带充电底座，本案与AA电池零售包装；前案不能替代本案的成套处理。",
+        "supportSummary": "965440由主案明确引用，但商品是带喷液装置的清洁工具。它可供比较内置电机范围，不能当作同款牙刷案例。",
+        "optionId": "back-toothbrush"
+      },
+      {
+        "from": "wetjet",
+        "to": "set",
+        "type": "return-to-source",
+        "label": "回主案核对本案零售包装",
+        "explanation": "不拿清洁工具结论直接套牙刷，回到目标商品。",
+        "evidenceIds": [
+          "wetjet",
+          "cited-link"
+        ],
+        "pendingQuestion": "尚需确认实际进口时是否同一零售包装；电池单独进口或组合不同不在此确认范围。",
+        "supportSummary": "965440由主案明确引用，但商品是带喷液装置的清洁工具。它可供比较内置电机范围，不能当作同款牙刷案例。",
+        "optionId": "read-set"
+      },
+      {
+        "from": "wetjet",
+        "to": "insufficient",
+        "type": "insufficient-choice",
+        "label": "仅凭内置电机就给当前商品报码",
+        "explanation": "类比不足，不能产生可用判断。",
+        "evidenceIds": [
+          "wetjet",
+          "cited-link"
+        ],
+        "pendingQuestion": "尚未用牙刷对应的结构、进口形态及成套判理验证该类比。",
+        "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。",
+        "optionId": "wrong"
+      },
+      {
+        "from": "head-check",
+        "to": "part-result",
+        "type": "teaching-choice",
+        "label": "仅查看历史组件结论",
+        "explanation": "主案单独替换刷头的历史编码为9603.21.0000。",
+        "evidenceIds": [
+          "separate-head",
+          "spinbrush"
+        ],
+        "pendingQuestion": "未证明实际新商品与该替换刷头相同，也未核现行版本。",
+        "supportSummary": "单独刷头没有以完整电动器具形态进口，主案及前案都另行讨论组件；整机编码不能沿用。",
+        "optionId": "historical-part"
+      },
+      {
+        "from": "head-check",
+        "to": "need-facts",
+        "type": "teaching-choice",
+        "label": "型号或进口形态仍不清楚",
+        "explanation": "补充图纸、功能及包装资料后再归类。",
+        "evidenceIds": [
+          "separate-head",
+          "spinbrush"
+        ],
+        "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+        "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。",
+        "optionId": "uncertain-part"
+      },
+      {
+        "from": "set",
+        "to": "result",
+        "type": "teaching-choice",
+        "label": "已读并确认本教学案的包装条件",
+        "explanation": "在历史案情范围内归纳结论。",
+        "evidenceIds": [
+          "retail-facts",
+          "set-rule"
+        ],
+        "pendingQuestion": "未核现行税则、当前裁定效力或任何新商品，不能延伸为当下申报码。",
+        "supportSummary": "已读前案帮助区分完整器具，但本案还含两节AA电池。主案另依零售成套分析，由牙刷提供基本特征。",
+        "optionId": "confirmed-set"
+      },
+      {
+        "from": "set",
+        "to": "need-facts",
+        "type": "teaching-choice",
+        "label": "实际包装不同或尚不清楚",
+        "explanation": "不能自动沿用成套判断。",
+        "evidenceIds": [
+          "retail-facts",
+          "set-rule"
+        ],
+        "pendingQuestion": "需提供商品结构说明、是否有电机、进口为整机还是组件以及零售包装资料。",
+        "supportSummary": "本项是教学中的补证或停止选择，不是来源已经证明了缺失事实。",
+        "optionId": "different-set"
+      }
+    ]
+  }
+}
